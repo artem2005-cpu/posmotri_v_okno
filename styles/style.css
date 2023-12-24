@@ -153,7 +153,6 @@ input[type="text"]:focus {
 }
 
 .search-form__label:hover {
-  text-decoration: underline;
   cursor: pointer;
 }
 
@@ -217,8 +216,7 @@ input[type="checkbox"]:checked + span {
 }
 
 .button:focus-visible {
-  border: 1px solid white;
-  outline: none;
+  outline: 1px solid white;
 }
 
 .content__details {
@@ -239,10 +237,6 @@ input[type="checkbox"]:checked + span {
   font-style: normal;
   line-height: 94%;
   text-transform: uppercase;
-}
-
-.content__accent {
-  color: #545050;
 }
 
 .content__list {
@@ -281,7 +275,7 @@ input[type="checkbox"]:checked + span {
 .content__video-card-description-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   gap: 6px;
   box-sizing: border-box;
   width: 100%;
@@ -292,6 +286,10 @@ input[type="checkbox"]:checked + span {
   text-decoration: underline;
   text-decoration-color: white;
   cursor: pointer;
+}
+
+.content__card-link:active {
+  color: #545050;
 }
 
 .content__video-card-title {
