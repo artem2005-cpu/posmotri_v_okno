@@ -178,6 +178,10 @@ input[type="checkbox"]:checked + span {
   line-height: normal;
 }
 
+.search-form__label:hover .search-form__label-text {
+  text-decoration: underline;
+}
+
 .button {
   display: flex;
   flex-shrink: 0;
@@ -314,6 +318,10 @@ input[type="checkbox"]:checked + span {
   font-size: 18px;
   font-style: normal;
   line-height: 16.2px; /* 90% */
+}
+
+.content__accent {
+  color: #545050;
 }
 
 .content__video-card-thumbnail {
